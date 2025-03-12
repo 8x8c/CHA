@@ -8,6 +8,6 @@ Some CHA applications use the XChaCha20-Poly1305 algorithm for encryption. In Ch
 
 Chaaes is an AES tool. I think Ai has to get WAY better in order to handle properly making AES apps. In contrast, XChaCha20-Poly1305 is MUCH SIMPLER to implemnent than AES. 
 
-OTPAES is a One Time Pad app. 
+Chaotp is a One Time Pad app. Read the docs. 
 
 
