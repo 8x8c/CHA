@@ -8,7 +8,7 @@ Again, it's not 1920 any more. Apps that do simple tasks and have over 100 files
 
 Some CHA applications use the XChaCha20-Poly1305 algorithm for encryption. In Chakey, the key is loaded from a file, while in Chapass the key is derived from a password using Argon2. However, the actual encryption/decryption process in both apps is handled by XChaCha20-Poly1305, ensuring authenticated encryption with a random 24-byte nonce.
 
-Chaaes is an AES tool. I think Ai has to get WAY better in order to handle properly making AES apps. In contrast, XChaCha20-Poly1305 is MUCH SIMPLER to implemnent than AES. 
+Chaaes is an AES tool. I think Ai has to get WAY better in order to handle properly making AES apps. In contrast, XChaCha20-Poly1305 is MUCH SIMPLER to implemnent than AES. To be sure, Chaaes is the most complicated encryption tool in the CHA group- so it is the hardest to audit. 
 
 Chaotp is a One Time Pad app. Read the docs. Besides being the ONLY uncrackable encryption known- it is so simple that a half a page of any lang can do it. It will overwrite the input file or it will encrypt the input file to another file. 
 
