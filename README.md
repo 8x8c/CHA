@@ -10,6 +10,6 @@ Some CHA applications use the XChaCha20-Poly1305 algorithm for encryption. In Ch
 
 Chaaes is an AES tool. I think Ai has to get WAY better in order to handle properly making AES apps. In contrast, XChaCha20-Poly1305 is MUCH SIMPLER to implemnent than AES. 
 
-Chaotp is a One Time Pad app. Read the docs. 
+Chaotp is a One Time Pad app. Read the docs. Besides being the ONLY uncrackable encryption known- it is so simple that a half a page of any lang can do it. It will overwrite the input file or it will encrypt the input file to another file. 
 
 
