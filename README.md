@@ -1,4 +1,4 @@
-# CHA- Extremely simple encryption tools made with Rust. 
+# CHA- One page encryption tools made with Rust. 
 
 
 There have been numerous encryption apps that were touted as being a helper of PRIVACY- but in reality they were a form of malware. None of that crap nonsense here. CHA is a bunch of individual tools with one page codebases- extremely easy to audit or modify. They are all coded with Rust- which any reasonable person would trust.  THIS REPO IS MAINTAINED, and input from the community is welcome. 
