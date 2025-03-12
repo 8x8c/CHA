@@ -1,5 +1,5 @@
 [package]
-name = "secure-file-encryptor"
+name = "chaaes"
 version = "1.0.0"
 edition = "2021"
 

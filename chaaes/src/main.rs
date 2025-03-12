@@ -7,7 +7,7 @@ use aes_gcm::{Aes256Gcm, KeyInit};
 use argon2::{Argon2, Params, Algorithm, Version};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let matches = Command::new("secure-file-encryptor")
+    let matches = Command::new("CHAAES")
         .version("1.0")
         .about("Encrypts and decrypts files securely using AES-256-GCM and Argon2id")
         .subcommand_required(true)
