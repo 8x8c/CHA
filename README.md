@@ -1,7 +1,7 @@
-# CHA- secure encryption tools
+# CHA- Simple open source encryption tools made with Rust. 
 
 
-Ai can make you 10 or more encryption apps every single minute. CHA is a more focused approach. 
+
 
 
 CHA applications use the XChaCha20-Poly1305 algorithm for encryption. In Chakey, the key is loaded from a file, while in Chapass the key is derived from a password using Argon2. However, the actual encryption/decryption process in both apps is handled by XChaCha20-Poly1305, ensuring authenticated encryption with a random 24-byte nonce.
